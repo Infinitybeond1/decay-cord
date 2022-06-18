@@ -7,7 +7,7 @@
  */
 
 /* DONT TOUCH THIS!!! */
-@import url("https://dyzean.github.io/Tokyo-Night/main.css");
+@import "main.css";
 
 /*  Read this before editing stuff!!!
 *
@@ -57,39 +57,39 @@
   --header-secondary: var(--text-muted);
 
   /*  Text Color  */
-  --text-normal: #b1bae6;
-  --text-muted: #565f89;
-  --interactive-normal: #5f647e;
-  --interactive-hover: #a2a6c2;
-  --interactive-active: #b5bad1;
-  --interactive-muted: #55576b;
+  --text-normal: #a9b1d6;
+  --text-muted: #b6beca;
+  --interactive-normal: #b6beca;
+  --interactive-hover: #b6beca;
+  --interactive-active: #b6beca;
+  --interactive-muted: #b6beca;
 
   /* Background Color */
-  --background-primary: #1a1b26;
-  --background-secondary: #171722;
-  --background-secondary-alt: #13131a;
-  --background-tertiary: #16161e;
+  --background-primary: #101419;
+  --background-secondary: #0e1217;
+  --background-secondary-alt: #13171c;
+  --background-tertiary: #101419;
   --background-tertiary-alt: var(--background-secondary-alt);
-  --background-accent: #434461;
-  --background-floating: #161620;
-  --background-modifier-hover: #212331c0;
-  --background-modifier-active: #282a3680;
-  --background-modifier-selected: #24263171;
+  --background-accent: #0e1217;
+  --background-floating: #101419;
+  --background-modifier-hover: #1a1e23;
+  --background-modifier-active: #13171c;
+  --background-modifier-selected: #4d5768;
   --background-modifier-accent: #1e1e29;
-  --background-mentioned: #252836;
-  --border-mentioned: #474c64;
+  --background-mentioned: #15191e;
+  --border-mentioned: #1a1e23;
   --background-mentioned-hover: #2f3344;
-  --accent-color: #7aa2f7;
+  --accent-color: #73c291;
 
   /* Folder Color */
-  --folder-color: #202332d0;
-  --folder-color-light: #2f3342d0;
+  --folder-color: #485263;
+  --folder-color-light: #4d5768;
 
   /* Scrollbars Color */
   --scrollbar-thin-thumb: transparent;
   --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: #2b2b46af;
-  --scrollbar-auto-thumb-hover: #27273d85;
+  --scrollbar-auto-thumb: #242931;
+  --scrollbar-auto-thumb-hover: #73c291;
   --scrollba-auto-track: transparent;
   --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
   --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
@@ -102,9 +102,9 @@
 	--avatar-roundess: 5px;
 
   /* Mac Titlebar addons */
-  --close-button-color: #e92a2ade;
-  --maximize-button-color: #f7bc1bde;
-  --minimize-button-color: #12db33de;
+  --close-button-color: #e05f65;
+  --maximize-button-color: #f1cf8a;
+  --minimize-button-color: #73c291;
 }
 
 .theme-light { /* Light Mode */
@@ -113,46 +113,41 @@
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
 
-  /* Text Color */
-  --text-normal: #2e3338;
-  --text-muted: #747f8d;
-  --interactive-normal: #4c505e;
-  --interactive-hover: #404350;
-  --interactive-active: #373a44;
-  --interactive-muted: #77797c;
+  /*  Text Color  */
+  --text-normal: #a9b1d6;
+  --text-muted: #b6beca;
+  --interactive-normal: #b6beca;
+  --interactive-hover: #b6beca;
+  --interactive-active: #b6beca;
+  --interactive-muted: #b6beca;
 
   /* Background Color */
-  --background-primary: #d5d6db;
-  --background-secondary: #cecfd4;
-  --background-secondary-alt: #b6b7bd;
-  --background-tertiary: #c5c6cc;
-  --background-tertiary-alt: #bbbbc2;
-  --background-accent: #9ca3bb;
-  --background-floating: #c2c2c9;
-  --background-mentioned: #c4c7da;
-  --background-modifier-hover: #2c2a2a25;
-  --background-modifier-active: #5a525229;
-  --background-modifier-selected: #555e693d;
-  --background-modifier-accent: #06060714;
-  --border-mentioned: #a9afcf;
-  --background-mentioned-hover: #cfd2e9;
-  --accent-color: #365aaa;
+  --background-primary: #171B20;
+  --background-secondary: #15191d;
+  --background-secondary-alt: #1a1e23;
+  --background-tertiary: #171B20;
+  --background-tertiary-alt: var(--background-secondary-alt);
+  --background-accent: #15191d;
+  --background-floating: #171B20;
+  --background-modifier-hover: #21262e;
+  --background-modifier-active: #1a1e23;
+  --background-modifier-selected: #4d5768;
+  --background-modifier-accent: #1e1e29;
+  --background-mentioned: #15191e;
+  --border-mentioned: #1a1e23;
+  --background-mentioned-hover: #2f3344;
+  --accent-color: #73c291;
 
   /* Folder Color */
-  --folder-color: #a7a6a6d0;
-  --folder-color-light: #afafafd0;
-
-  /* Input Box Color */
-  --input-box-bg: #c2c2c7;
-  --input-box-border: #b3b4b8;
-  --input-box-border-focus: #959699;
+  --folder-color: #485263;
+  --folder-color-light: #4d5768;
 
   /* Scrollbars Color */
   --scrollbar-thin-thumb: transparent;
   --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: #a0a0a0af;
-  --scrollbar-auto-thumb-hover: #77777785;
-  --scrollbar-auto-track: transparent;
+  --scrollbar-auto-thumb: #242931;
+  --scrollbar-auto-thumb-hover: #7ddac5;
+  --scrollba-auto-track: transparent;
   --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
   --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
 
@@ -160,13 +155,11 @@
   --channeltextarea-background: var(--background-secondary);
   --channeltextarea-background-hover: var(--background-tertiary);
 
-  /* Square avatar addons */
+	/* Square avatar addons */
 	--avatar-roundess: 5px;
 
   /* Mac Titlebar addons */
-  --close-button-color: #e92a2ade;
-  --maximize-button-color: #f7bc1bde;
-  --minimize-button-color: #12db33de;
-  --button-position: row;
-
+  --close-button-color: #e05f65;
+  --maximize-button-color: #f1cf8a;
+  --minimize-button-color: #73c291;
 }
